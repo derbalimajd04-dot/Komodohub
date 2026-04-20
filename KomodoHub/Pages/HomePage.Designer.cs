@@ -1,0 +1,231 @@
+﻿namespace KomodoHub.Pages
+{
+    partial class HomePage
+    {
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+        }
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            components = new System.ComponentModel.Container();
+            lblTitle = new Label();
+            lblWelcome = new Label();
+            lblMode = new Label();
+            btnLibrary = new Button();
+            btnLogout = new Button();
+            button1 = new Button();
+            bindingSource1 = new BindingSource(components);
+            btnSubmit = new Button();
+            btnSighting = new Button();
+            btnEnrolment = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
+            SuspendLayout();
+            // 
+            // lblTitle
+            // 
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblTitle.ForeColor = SystemColors.ButtonFace;
+            lblTitle.Location = new Point(30, 35);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(188, 40);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "Komodo Hub";
+            // 
+            // lblWelcome
+            // 
+            lblWelcome.AutoSize = true;
+            lblWelcome.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblWelcome.ForeColor = SystemColors.ButtonFace;
+            lblWelcome.Location = new Point(30, 89);
+            lblWelcome.Name = "lblWelcome";
+            lblWelcome.Size = new Size(244, 25);
+            lblWelcome.TabIndex = 1;
+            lblWelcome.Text = "Welcome to the home page";
+            lblWelcome.Click += label2_Click;
+            // 
+            // lblMode
+            // 
+            lblMode.AutoSize = true;
+            lblMode.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblMode.ForeColor = SystemColors.ControlDark;
+            lblMode.Location = new Point(30, 125);
+            lblMode.Name = "lblMode";
+            lblMode.Size = new Size(124, 21);
+            lblMode.TabIndex = 2;
+            lblMode.Text = "Mode: Unknown";
+            // 
+            // btnLibrary
+            // 
+            btnLibrary.Location = new Point(283, 537);
+            btnLibrary.Name = "btnLibrary";
+            btnLibrary.Size = new Size(170, 61);
+            btnLibrary.TabIndex = 3;
+            btnLibrary.Text = "Open library";
+            btnLibrary.UseVisualStyleBackColor = true;
+            btnLibrary.Click += btnLibrary_Click_1;
+            // 
+            // btnLogout
+            // 
+            btnLogout.Location = new Point(534, 537);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(170, 61);
+            btnLogout.TabIndex = 4;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.SeaGreen;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(30, 167);
+            button1.Name = "button1";
+            button1.Size = new Size(170, 61);
+            button1.TabIndex = 5;
+            button1.Text = "Species";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // btnSubmit
+            // 
+            btnSubmit.BackColor = Color.SeaGreen;
+            btnSubmit.FlatAppearance.BorderSize = 0;
+            btnSubmit.FlatStyle = FlatStyle.Flat;
+            btnSubmit.ForeColor = Color.White;
+            btnSubmit.Location = new Point(30, 254);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(170, 62);
+            btnSubmit.TabIndex = 6;
+            btnSubmit.Text = "Submit";
+            btnSubmit.UseVisualStyleBackColor = false;
+            btnSubmit.Click += button2_Click;
+            // 
+            // btnSighting
+            // 
+            btnSighting.BackColor = Color.SeaGreen;
+            btnSighting.FlatAppearance.BorderSize = 0;
+            btnSighting.FlatStyle = FlatStyle.Flat;
+            btnSighting.ForeColor = Color.White;
+            btnSighting.Location = new Point(30, 341);
+            btnSighting.Name = "btnSighting";
+            btnSighting.Size = new Size(170, 62);
+            btnSighting.TabIndex = 7;
+            btnSighting.Text = "Sighting Reports";
+            btnSighting.UseVisualStyleBackColor = false;
+            btnSighting.Click += btnSighting_Click;
+            // 
+            // btnEnrolment
+            // 
+            btnEnrolment.BackColor = Color.SeaGreen;
+            btnEnrolment.FlatAppearance.BorderSize = 0;
+            btnEnrolment.FlatStyle = FlatStyle.Flat;
+            btnEnrolment.ForeColor = Color.White;
+            btnEnrolment.Location = new Point(30, 430);
+            btnEnrolment.Name = "btnEnrolment";
+            btnEnrolment.Size = new Size(170, 62);
+            btnEnrolment.TabIndex = 8;
+            btnEnrolment.Text = "Enrol";
+            btnEnrolment.UseVisualStyleBackColor = false;
+            btnEnrolment.Click += btnEnrolment_Click_1;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.SeaGreen;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(889, 167);
+            button2.Name = "button2";
+            button2.Size = new Size(170, 61);
+            button2.TabIndex = 9;
+            button2.Text = "Inbox";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click_2;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.SeaGreen;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(889, 234);
+            button3.Name = "button3";
+            button3.Size = new Size(170, 61);
+            button3.TabIndex = 10;
+            button3.Text = "Profile";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // HomePage
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(60, 60, 60);
+            BackgroundImageLayout = ImageLayout.Zoom;
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(btnEnrolment);
+            Controls.Add(btnSighting);
+            Controls.Add(btnSubmit);
+            Controls.Add(button1);
+            Controls.Add(btnLogout);
+            Controls.Add(btnLibrary);
+            Controls.Add(lblMode);
+            Controls.Add(lblWelcome);
+            Controls.Add(lblTitle);
+            DoubleBuffered = true;
+            Name = "HomePage";
+            Size = new Size(1097, 695);
+            Load += HomePage_Load;
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label lblTitle;
+        private Label lblWelcome;
+        private Label lblMode;
+        private Button btnLibrary;
+        private Button btnLogout;
+        private Button button1;
+        private BindingSource bindingSource1;
+        private Button btnSubmit;
+        private Button btnSighting;
+        private Button btnEnrolment;
+        private Button button2;
+        private Button button3;
+    }
+}
