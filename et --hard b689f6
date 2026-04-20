@@ -1,0 +1,29 @@
+[33m7bd482f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m final touche
+[33me026ac6[m merge: resolve conflicts with teammate's sighting page changes
+[33m8d39d4c[m fixing the conflict
+[33m1a01422[m programme enrolment with access code validation
+[33m5b689f6[m i have created the sighting report page so student can report extinct animals
+[33md4569cf[m student can view submissions and teacher feedback
+[33m8358cbe[m Merge branch 'master' of https://github.com/0xFxd3/KomodoHub
+[33m039630c[m implement teacher feedback feature
+[33m620d3f7[m Merge branch 'master' of https://github.com/0xFxd3/KomodoHub
+[33meab1341[m login ui fixed and added the access code but still not working
+[33m65df8e8[m add image upload to student submission page
+[33mc720551[m implement student submission feature
+[33mfc655b3[m feaadd RoleHelper and protect Teacher Tools and Library pages with RBAC
+[33m7d717b8[m the sidebar was showing before with the login, now it shows after you login
+[33mbc99dc4[m species page created with all the information about the 15 species
+[33m4ae7595[m removed the file path message so just activity created is showing
+[33m6e313bb[m teachers can upload images using the create activity in teacherpage.cs and it will show in publicactivity.cs
+[33mc429a5d[m fix login failure first if the credentials are wrong
+[33m8d9fc87[m fixed the create activity so only teachers and admin can create activites
+[33m9ac6740[m added a create activity in the teacher page
+[33mad8192a[m public activity created still needs to get fixed
+[33m96efb38[m changed the password UseSystemPasswordChar to just txtPassword.PasswordChar = '●'; becasue it wasnt working
+[33m8b6a846[m Made the Remember Me button functional and fixed password visibility bug it should have been true not false.
+[33me05b83c[m if email or username is already taken u cant register with it. and removed the # from homepage.
+[33ma9072e3[m I made the homepage and decorated itcolors along with the background and the colors of the buttons and the texts
+[33mda442a4[m Integrate Student Findings into Library page and implement submission loading
+[33m8fa0259[m Brian - made the login and register function, made a teacher page to generate code, coded php generate code
+[33md3916e5[m uipdate
+[33m04cbf85[m Add project files.
